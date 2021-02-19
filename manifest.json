@@ -1,0 +1,16 @@
+{
+  "name": "ChromeOS Random Wallpaper",
+  "description": "Sets a ChromeOS Desktop Wallpaper to a random image from Unsplash (www.unsplash.com). This app is not affiliated with Unsplash",
+  "version": "1.0",
+  "author": "David Schofield",
+  "manifest_version": 2,
+  "app": {
+	"background": {
+	  "scripts": ["background.js"]
+	}
+  },
+  "permissions": [
+	"wallpaper"
+  ],
+  "icons": { "16": "wallpaper-refresh-16.png", "128": "wallpaper-refresh-128.png" }
+}
